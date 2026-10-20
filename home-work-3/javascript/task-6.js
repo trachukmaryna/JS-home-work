@@ -1,33 +1,35 @@
 "use strict";
 var _a;
 const dayOfWeekNumber = parseInt((_a = prompt("Введіть номер дня тижня")) !== null && _a !== void 0 ? _a : "");
+let day;
 if (!isFinite(dayOfWeekNumber) || dayOfWeekNumber <= 0 || dayOfWeekNumber > 7)
     throw new Error("Ввели некоректний номер!");
 else {
     switch (dayOfWeekNumber) {
         case 1:
-            document.write("Понеділок");
+            day = "Понеділок";
             break;
         case 2:
-            document.write("Вівторок");
+            day = "Вівторок";
             break;
         case 3:
-            document.write("Середа");
+            day = "Середа";
             break;
         case 4:
-            document.write("Четвер");
+            day = "Четвер";
             break;
         case 5:
-            document.write("П'ятниця");
+            day = "П'ятниця";
             break;
         case 6:
-            document.write("Субота");
+            day = "Субота";
             break;
         case 7:
-            document.write("Неділя");
+            day = "Неділя";
             break;
         default:
-            document.write("Невірний номер дня");
+            day = "Невірний номер дня";
             break;
     }
+    document.write(day);
 }
