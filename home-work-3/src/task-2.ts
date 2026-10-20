@@ -15,5 +15,5 @@ else {
 		document.write("В покупці відмовлено! Недостатньо коштів!");
 	else if (productPrice === amountOfMoney || changeMoney < lotteryCost)
 		document.write("Дякуємо за покупку!");
-	else document.write(`Пропонуємо купити лотерею за ${lotteryCost} грн.`);
+	else document.write(`Дякуємо за покупку! Пропонуємо купити лотерею за ${lotteryCost} грн.`);
 }
