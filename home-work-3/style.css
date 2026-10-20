@@ -1,0 +1,17 @@
+body {
+	background-color: #89b8eb;
+	color: #2d3436;
+	padding-block: 50px;
+	padding-inline: 30px;
+	h1 {
+		text-align: center;
+		font-size: 50px;
+		color: #031a33;
+	}
+	a {
+		font-size: 25px;
+	}
+	p {
+		font-size: 18px;
+	}
+}
